@@ -21,8 +21,8 @@ while running:
     for event in pygame.event.get():    #어떤 이벤트가 발생하였는가?
         if event.type == pygame.QUIT:   #창이 닫히는 이벤트가 발생하였는가?
             running=False               #게임이 진행중이 아님
-    screen.fill((0,0,255))
-    #screen.blit(background,(0,0))       #배경 그리기
+    #screen.fill((0,0,255))
+    screen.blit(background,(0,0))       #배경 그리기
 
     pygame.display.update()             #게임 화면을 다시 그리기!
 
